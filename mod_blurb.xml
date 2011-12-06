@@ -10,7 +10,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>joomods@mattgrannary.com</authorEmail>
 	<authorUrl>mattgrannary.com</authorUrl>
-	<version>1.7.0</version>
+	<version>1.0</version>
 	<description>Quick module to show a blurb.</description>
 	<files>
 		<filename module="mod_blurb">mod_blurb.php</filename>
