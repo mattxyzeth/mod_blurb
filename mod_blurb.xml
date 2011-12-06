@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.7"
+	client="site">
+	<name>Blurb</name>
+	<author>Matt Grannary</author>
+	<creationDate>November 2011</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>joomods@mattgrannary.com</authorEmail>
+	<authorUrl>mattgrannary.com</authorUrl>
+	<version>1.7.0</version>
+	<description>Quick module to show a blurb.</description>
+	<files>
+		<filename module="mod_blurb">mod_blurb.php</filename>
+		<filename module="mod_blurb">helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="title" type="text" label="Title" description="Type your header title for this blurb." />
+				<field name="header_level" type="integer" label="Header level" description="Choose a header level for the title." first="1" last="4" step="1" default="2" />
+				<field name="backgroundimage" type="media"
+					label="Title Background Image" description="Select an image form your media library to use as the title background." />
+				<field name="image_as_title" type="checkbox" label="Use background image as title" description="Use the image as the title instead of the text." />
+				<field name="blurb" type="textarea" label="Blurb" description="Type your blurb here." />
+			</fieldset>
+			<fieldset
+				name="advanced">
+
+				<field
+					name="module_id"
+					type="text"
+					label="Module Custom Class"
+					description="Choose a custom class for this module." />
+					
+				<field
+					name="blurb_width"
+					type="text"
+					label="Blurb content width"
+					description="Enter a width for the blurb content container. Default is set to auto." />
+					
+				<field
+					name="blurb_height"
+					type="text"
+					label="Blurb content height"
+					description="Enter a height for the blurb content container. Default is set to auto." />
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
