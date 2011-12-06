@@ -1,0 +1,11 @@
+This is a simple Joomla 1.7 module used to display a blurb.
+
+Download the full repos and package to a zip for installation, or put the whole folder in your modules directory and use the discover function in your extension manager.
+
+/**
+ * @version		1.0
+ * @package		Blurb_Module
+ * @author		Matt Grannary - mattgrannary.com
+ * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
